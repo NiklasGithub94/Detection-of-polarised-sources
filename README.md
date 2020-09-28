@@ -9,7 +9,7 @@ These FITS files contains a lot of information which makes it impractical to obt
 The observational data contains observation from radio telescopes for several hours of selected parts of the sky 
 in an interval of radio frequencies with different resolution. This data is saved in a "frequency cube" 
 (the facing plane is the observed part of the sky while the third dimension represent the frequency).
-To detect polarised radio sources one makes a so called Fourier-Faraday transformed from the frequency domain to a different domain Φ (phi).
+To detect polarised radio sources one makes a so called Fourier-Faraday transformed from the frequency domain to the polarisation domain Φ (phi).
 In these (new) cubes, called Faraday cubes, we search for polarised sources which are characterised by a large SNR (signal-to-noise ratio, with values of 5 or 6 and more) and having Φ-values not in interval -3 to 1 (Assumption: High SNR for Φ in interval -3 to 1 are not physical detections of polarised sources, they come from the telescope and instruments which are called instrumental polarisation and should thus be ignored). 
 The idea here is to find a time-efficient and memory saving code for detection of polarised sources in the Faraday cubes. The interested will only work on a code detecting outliers in the Faraday cube and not be concerned with the transformation.
 
